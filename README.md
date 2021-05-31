@@ -75,6 +75,23 @@ Neste tela podemos criar e editar um grafo simples para ser utilizado no cálcul
 2. A adição de aresta só será habilitada quando o grafo possuir pelo menos dois vértices. Para adicionar uma arestas, selecionamos os dois vértices da aresta em cada lista, inserimos o peso (máx. 5 dígitos) e clicamos no botão "Adicionar". Caso já exista uma aresta entre esses dois vértices, ela será substituída (o peso será atualizado).
 3. Para remover arestas, escolhemos a aresta a ser removida e clicamos no botão "Remover". Ao remover um vértice, todas as arestas que incidem nele serão removidas.
 4. Para remover uma aresta, selecionamos a desejada aresta na lista e clicamos em "Remover". As arestas são denotadas na forma "(a,b)", onde "a" e "b" são os vértices de extremidade da aresta.
-5. Após o termino da criação do grafo, podemos clicar em "Confirmar" para ir para a tela de cálculo e vizualização do widest path.
+5. Após o termino da criação do grafo, podemos clicar em "Confirmar" para ir para a tela de cálculo e vizualização do Widest Path.
 6. Para deletar todas as informações inseridas no grafo de uma vez, podemos clicar em "Resetar.
 7. Para voltar ao menu principal clicamos em "Voltar".
+8. Área de visualização do grafo.
+
+### Tela de cálculo e visualização do Widest Path
+
+<p align="center">
+   <img src="images/5.jpg" width="688" height="401" />
+</p>
+
+Nesta tela escolhemos as aresta de início e fim do caminho a ser calculado.
+
+1. Lista de seleção do vértice inicial.
+2. 1. Lista de seleção do vértice final.
+3. Botão para calcular o Widest Path.
+4. Voltar para tela anterior.
+5. Área de vizualição do grafo com o Widest Path destacado em vermelho.
+
+
