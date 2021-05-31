@@ -9,6 +9,10 @@
    2. [Executável (.exe)](#executável-exe)
    3. [Versão Online](#versão-online)
 4. [Como Usar](#como-usar)
+   1. [Tela inicial](#tela-inicial)
+   2. [Tela de seleção de exemplos](#tela-de-seleção-de-exemplos)
+   3. [Tela de criação e edição do grafo](#tela-de-criação-e-edição-do-grafo)
+   4. [Tela de cálculo e visualização do Widest Path](#tela-de-cálculo-e-visualização-do-widest-path)
 <!--te-->
 
 ## Autoria
