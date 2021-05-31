@@ -4,10 +4,11 @@
 <!--ts-->
 1. [Autoria](#autoria)
 2. [Descrição do Projeto](#descrição-do-projeto)
-3. [Como rodar](#como-rodar)
+3. [Opções de execução](#opções-de-execução)
    1. [Executar código pelo terminal](#executar-código-pelo-terminal)
    2. [Executável (.exe)](#executável-exe)
    3. [Versão Online](#versão-online)
+4. [Como Usar](#como-usar)
 <!--te-->
 
 ## Autoria
@@ -20,7 +21,7 @@ Matrícula: 219216367
 ## Descrição do Projeto
 <p align="justify">O "Problema do Caminho Mais Largo" (Widest Path Problem) consiste em encontrar o caminho entre dois vértices em um grafo ponderado de forma a maximizar  o peso da aresta de peso mínimo nesse caminho. O objetivo deste software é prover uma ferramenta para calcular o widest path num grafo simples e permitir a sua visualização.</p>
 
-## Como Rodar
+## Opções de execução
 ### Executar código pelo terminal
 
 O código foi implementado Python Python 3.9.5. Também foram utilizados as seguintes bibliotecas:<br>
@@ -39,5 +40,41 @@ No diretório do projeto também está incluído um arquivo .exe do software par
 ### Versão Online
 xxxxxxxxxxxxxxxxxxxxxxx
 
-# Como Usar
+## Como Usar
+### Tela inicial
 
+<p align="center">
+   <img src="images/1.jpg" width="688" height="401" />
+</p>
+
+Na tela inicial do software podemos escolher se iremos trabalhar com um dos grafos de exemplo ou se vamos criar nosso próprio grafo.
+
+1. Ir para a tela de seleção dos grafos de exemplo.
+2. Ir para a tela de criação de edição do grafo.
+3. Fechar o software.
+
+### Tela de seleção de exemplos
+
+<p align="center">
+   <img src="images/2.jpg" width="688" height="401" />
+</p>
+
+Nesta tela podemos escolher um dos três grafos de exemplo pré-definidos.
+1. Lista para selecionar um dos grafos de exemplo.
+2. Confirmar a escolha do grafo e ir para tela de cálculo e vizualização do caminho.
+3. Voltar para o menu principal.
+
+### Tela de criação e edição do grafo
+
+<p align="center">
+   <img src="images/4.jpg" width="688" height="401" />
+</p>
+Neste tela podemos criar e editar um grafo simples para ser utilizado no cálculo do widest path.
+
+1. Para adicionar um vértice, inserimos um nome (máx. 5 caracteres) para o vértice e clicamos no botão "Adicionar".
+2. A adição de aresta só será habilitada quando o grafo possuir pelo menos dois vértices. Para adicionar uma arestas, selecionamos os dois vértices da aresta em cada lista, inserimos o peso (máx. 5 dígitos) e clicamos no botão "Adicionar". Caso já exista uma aresta entre esses dois vértices, ela será substituída (o peso será atualizado).
+3. Para remover arestas, escolhemos a aresta a ser removida e clicamos no botão "Remover". Ao remover um vértice, todas as arestas que incidem nele serão removidas.
+4. Para remover uma aresta, selecionamos a desejada aresta na lista e clicamos em "Remover". As arestas são denotadas na forma "(a,b)", onde "a" e "b" são os vértices de extremidade da aresta.
+5. Após o termino da criação do grafo, podemos clicar em "Confirmar" para ir para a tela de cálculo e vizualização do widest path.
+6. Para deletar todas as informações inseridas no grafo de uma vez, podemos clicar em "Resetar.
+7. Para voltar ao menu principal clicamos em "Voltar".
