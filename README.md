@@ -41,6 +41,7 @@ No diretório do projeto também está incluído um arquivo .exe do software par
 xxxxxxxxxxxxxxxxxxxxxxx
 
 ## Como Usar
+
 ### Tela inicial
 
 <p align="center">
@@ -50,7 +51,7 @@ xxxxxxxxxxxxxxxxxxxxxxx
 Na tela inicial do software podemos escolher se iremos trabalhar com um dos grafos de exemplo ou se vamos criar nosso próprio grafo.
 
 1. Ir para a tela de seleção dos grafos de exemplo.
-2. Ir para a tela de criação de edição do grafo.
+2. Ir para a tela de criação e edição do grafo.
 3. Fechar o software.
 
 ### Tela de seleção de exemplos
@@ -61,7 +62,7 @@ Na tela inicial do software podemos escolher se iremos trabalhar com um dos graf
 
 Nesta tela podemos escolher um dos três grafos de exemplo pré-definidos.
 1. Lista para selecionar um dos grafos de exemplo.
-2. Confirmar a escolha do grafo e ir para tela de cálculo e vizualização do caminho.
+2. Confirmar a escolha do grafo e ir para tela de cálculo e vizualização do Widest Path.
 3. Voltar para o menu principal.
 
 ### Tela de criação e edição do grafo
