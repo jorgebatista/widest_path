@@ -7,12 +7,13 @@
 3. [Opções de execução](#opções-de-execução)
    1. [Executar código pelo terminal](#executar-código-pelo-terminal)
    2. [Executável (.exe)](#executável-exe)
-   3. [Versão Online](#versão-online)
 4. [Como Usar](#como-usar)
    1. [Tela inicial](#tela-inicial)
    2. [Tela de seleção de exemplos](#tela-de-seleção-de-exemplos)
    3. [Tela de criação e edição do grafo](#tela-de-criação-e-edição-do-grafo)
    4. [Tela de cálculo e visualização do Widest Path](#tela-de-cálculo-e-visualização-do-widest-path)
+5. [Implementação](#implementação)
+
 <!--te-->
 
 ## Autoria
@@ -40,9 +41,6 @@ Você pode tentar executar o código em versões diferentes do Python e das bibl
 
 ### Executável (.exe)
 No diretório do projeto também está incluído um arquivo .exe do software para Windows 10 pronto para utilização. Não é necessário instalação, basta executar.
-
-### Versão Online
-xxxxxxxxxxxxxxxxxxxxxxx
 
 ## Como Usar
 
@@ -98,5 +96,11 @@ Nesta tela escolhemos as aresta de início e fim do caminho a ser calculado.
 3. Botão para calcular o Widest Path.
 4. Voltar para tela anterior.
 5. Área de vizualição do grafo com o Widest Path destacado em vermelho.
+
+## Implementação
+
+A implementação do software foi feita na linguagem Python, utilizando a biblioteca PySimpleGUI para criar a interface gráfica. A biblioteca matplotlib foi utiliza para plotar as imagens dos grafo.
+
+Para a manipulação dos grafos foi utilizada a biblioteca networkx, onde para o cálculo do Widest Path é utilizado o algoritmo Maximum Spanning Edges sobre o grafo, produzindo um segundo grafo, que é uma árvore geradora com os pesos maximizados do primeiro grafo, e encima desse segundo grafo é utilizado o algoritmo Shortest Path, chegando assim no resultado. Mais detalhes estão comentados no código.
 
 
