@@ -51,7 +51,7 @@ Para utilizar a versão online do software, acesse o link https://replit.com/@Jo
    <img src="images/replit.jpg" width="800" height="401" />
 </p>
 
-Após abrir a página clique no botão de play (1) e aguarde enquanto o servidor configura o ambiente virtual. Após encerrada a configuração, clique em "Output" (2) para visualizar o programa.
+Após abrir a página, clique no botão de play (1) e aguarde enquanto o servidor configura o ambiente virtual. Após encerrada a configuração, clique em "Output" (2) para visualizar o programa.
 
 ## Como Usar
 
