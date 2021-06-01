@@ -45,10 +45,10 @@ No diretório do projeto também está incluído um arquivo .exe do software par
 
 ### Interface Web
 
-Para utilizar a versão online do software, acesse o link https://replit.com/@JorgeLuis30/Widest-Path?embed=1 no deu browser.
+Para utilizar a versão online do software, acesse o link https://replit.com/@JorgeLuis30/Widest-Path?embed=1 no seu browser.
 
 <p align="center">
-   <img src="images/replit.jpg" width="688" height="401" />
+   <img src="images/replit.jpg" width="800" height="401" />
 </p>
 
 Após abrir a página clique no botão de play (1) e aguarde enquanto o servidor configura o ambiente virtual. Após encerrada a configuração, clique em "Output" (2) para visualizar o programa.
