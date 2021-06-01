@@ -7,6 +7,7 @@
 3. [Opções de execução](#opções-de-execução)
    1. [Executar código pelo terminal](#executar-código-pelo-terminal)
    2. [Executável (.exe)](#executável-exe)
+   3. [Interface Web](#interface-web)
 4. [Como Usar](#como-usar)
    1. [Tela inicial](#tela-inicial)
    2. [Tela de seleção de exemplos](#tela-de-seleção-de-exemplos)
@@ -41,6 +42,16 @@ Você pode tentar executar o código em versões diferentes do Python e das bibl
 
 ### Executável (.exe)
 No diretório do projeto também está incluído um arquivo .exe do software para Windows 10 pronto para utilização. Não é necessário instalação, basta executar.
+
+### Interface Web
+
+Para utilizar a versão online do software, acesse o link https://replit.com/@JorgeLuis30/Widest-Path?embed=1 no deu browser.
+
+<p align="center">
+   <img src="images/replit.jpg" width="688" height="401" />
+</p>
+
+Após abrir a página clique no botão de play (1) e aguarde enquanto o servidor configura o ambiente virtual. Após encerrada a configuração, clique em "Output" (2) para visualizar o programa.
 
 ## Como Usar
 
